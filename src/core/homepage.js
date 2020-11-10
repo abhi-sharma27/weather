@@ -42,7 +42,7 @@ function Homepage () {
             <div>
                 <p>{data?.weather[0].description}</p>
                 <p>{data?.main.temp && "Temp : "+ (data?.main.temp-273.15)} </p>
-                <p>{data?.main.temp && "Sea Level : "+ (data?.main.sea_level    )} </p>
+                <p>{data?.main.temp && "Sea Level : "+ (data?.main.sea_level)} </p>
             </div>
         </div>
     );
